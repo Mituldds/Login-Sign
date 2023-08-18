@@ -14,13 +14,13 @@ const LoginPage = () => {
 
   const userPassword = localStorage.getItem("password")
     ? localStorage.getItem("password")
-    : "admin";
+    : "123";
 
   const handleSubmit = (e) => {
     e.preventDefault();
     if (email === userName && password === userPassword) {
       toast.success("Login Success");
-      navigate("./profile");
+      navigate("./navbar");
     } else {
       toast.error("Invalid Email or PassWord");
     }

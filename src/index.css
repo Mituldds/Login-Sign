@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap"); */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -10,7 +10,7 @@ body {
 
 .form__container {
   min-height: 100vh;
-  background: linear-gradient(90deg, #00c9ff 0%, #92fe9d 100%);
+  background: linear-gradient(90deg, #00a2ff 0%, #92e5fe 100%);
 }
 .form__container form {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
